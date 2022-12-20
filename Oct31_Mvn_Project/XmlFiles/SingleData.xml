@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<parameter name="uname" value="Mano"></parameter>
+  	<parameter name="pass" value="123456"></parameter>
+  	<parameter name="fname" value="Mano"></parameter>
+  	<parameter name="lname" value="Shrie"></parameter>
+    <classes>
+      <class name="com.testing.attributes.Passing_Single_Data_Param"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
